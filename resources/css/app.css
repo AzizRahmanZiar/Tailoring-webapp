@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "BahijZarBold";
+    src: url("/fonts/Bahij-Zar-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply globally */
+html,
+body,
+#app {
+    font-family: "BahijZarBold", sans-serif;
+}
